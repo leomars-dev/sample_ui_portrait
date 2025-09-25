@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="sample_ui_example"
-run/main_scene="uid://ce0u4nyfn7g8e"
+run/main_scene="uid://dk6yu4wgjglg6"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"

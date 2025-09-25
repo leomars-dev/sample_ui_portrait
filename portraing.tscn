@@ -3,6 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://qhkjg3x7bweg" path="res://icon.svg" id="1_3e08b"]
 
 [node name="Control" type="MarginContainer"]
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(0, 300)
@@ -51,6 +53,7 @@ horizontal_alignment = 2
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+alignment = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
